@@ -64,10 +64,10 @@ checkAge(21, 'Ted');
 checkAge(24, 'Linda');
 
 function getLength(word) {
-   if (word.length % 2 === 0) {
-       return 'The world is nice and even!';
+   if (word.length % 2 == 0) {
+       return ('The world is nice and even!');
    } else {
-       return 'The world is an odd place!';
+       return ('The world is an odd place!');
    }
 }
 
