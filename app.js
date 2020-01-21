@@ -72,4 +72,4 @@ function getLength(word) {
 }
 
 console.log(getLength('hello world'));
-
+//
